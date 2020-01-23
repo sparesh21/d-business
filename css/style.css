@@ -1,0 +1,280 @@
+/*fonts are used for site */
+@font-face {
+	font-family: 'comfortaabold';
+	src: url('fonts/comfortaa-bold-webfont.woff2') format('woff2'), url('fonts/comfortaa-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'comfortaalight';
+	src: url('fonts/comfortaa-light-webfont.woff2') format('woff2'), url('fonts/comfortaa-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'comfortaaregular';
+	src: url('fonts/comfortaa-regular-webfont.woff2') format('woff2'), url('fonts/comfortaa-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background: #fff;
+	font-family: 'comfortaaregular';
+	font-size: 16px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+a, a:hover, button, button:hover {
+	transition: .2s all ease;
+	display: inline-block;
+	text-decoration: none;
+	border: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+p {
+	color: #444444;
+	line-height: 1;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.blue-btn {
+	color: #fff;
+	background: #149bd0;
+	padding: 16px 30px 12px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.blue-btn:hover {
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo-wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-wrap a {
+	width: 100px;
+}
+
+.business-content-container {
+	display: flex;
+	align-items: flex-start;
+}
+
+.business-l-art {
+	flex: 30%;
+}
+
+.business-r-art {
+	flex: 30%;
+}
+
+.business-c-content {
+	flex: 40%;
+	text-align: center;
+	padding: 70px 80px 0;
+}
+
+.business-c-content p {
+	line-height: 1.6;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+
+.business-c-content a {
+	margin-top: 20px;
+}
+
+.business-services-container {
+	padding: 80px 30px;
+}
+
+.services-layout {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.services-layout .layout-item {
+	flex: 1;
+	text-align: center;
+	margin-right: 30px;
+	padding: 0 40px;
+}
+
+.services-layout .layout-item img {
+	margin: 0 auto;
+}
+
+.services-layout .layout-item:nth-child(4n + 4) {
+	margin-right: 0;
+}
+
+.services-layout .layout-item p {
+	line-height: 1.6;
+	margin-top: 20px;
+}
+
+.consultation-container {
+	padding: 80px 30px;
+	display: flex;
+}
+
+.consultation-container .consultation-form {
+	width: 80%;
+}
+
+.consultation-container .consultation-art {
+	width: 20%;
+}
+
+.consultation-container .consultation-form h2 {
+	font-size: 30px;
+	line-height: 1.6;
+	color: #000000;
+	font-weight: 600;
+	margin-bottom: 60px;
+}
+
+.form-wrap {
+	display: flex;
+	width: 80%;
+	padding-right: 40px;
+}
+
+.form-wrap .form-list {
+	width: 100%;
+	margin-right: 60px;
+}
+
+.form-wrap .form-list:last-child {
+	margin-right: 0;
+}
+
+.form-wrap .form-list .form-item {
+	margin-bottom: 30px;
+}
+
+.form-wrap .form-list .form-item input {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 600;
+	width: 100%;
+	border: 0;
+	padding: 10px 0;
+	border-bottom: 1px solid #bebebe;
+	outline: none;
+}
+
+.form-wrap .form-list .form-item textarea {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 600;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #bebebe;
+	outline: none;
+	resize: none;
+	height: 175px;
+	font-family: 'comfortaaregular';
+}
+
+.form-wrap .form-list .form-item input::-webkit-input-placeholder {
+	color: #989898;
+}
+
+.form-wrap .form-list .form-item input::-moz-placeholder {
+	color: #989898;
+}
+
+.form-wrap .form-list .form-item input:-ms-input-placeholder {
+	color: #989898;
+}
+
+.form-wrap .form-list .form-item input:-moz-placeholder {
+	color: #989898;
+}
+
+.submit-btn button {
+	cursor: pointer;
+	outline: none;
+}
+
+footer {
+	background: #149bd0;
+	padding: 30px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer .footer-logo a {
+	width: 80px;
+}
+
+.footer-list ul {
+	display: flex;
+	align-items: center;
+}
+
+.footer-list ul li {
+	margin-right: 40px;
+}
+
+.footer-list ul li a {
+	color: #fff;
+}
+
+.footer-list ul li a:hover {
+	color: #000;
+}
